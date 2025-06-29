@@ -1,0 +1,8 @@
+---
+- name: Setup Web and DB Servers
+  hosts: all
+  #become: yes
+  roles:
+    - common
+    - webserver
+    - database

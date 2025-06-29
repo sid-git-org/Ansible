@@ -1,0 +1,7 @@
+[linux]
+ubuntu ansible_host=192.168.1.100 ansible_user=ubuntu ansible_ssh_private_key_file=~/.ssh/id_rsa
+
+[windows]
+win_desktop ansible_host=192.168.1.101 ansible_user=Administrator ansible_password=YourPassword ansible_connection=winrm ansible_winrm_transport=basic ansible_winrm_server_cert_validation=ignore
+
+win_laptop ansible_host=192.168.1.102 ansible_user=Administrator ansible_password=YourPassword ansible_connection=winrm ansible_winrm_transport=basic ansible_winrm_server_cert_validation=ignore
